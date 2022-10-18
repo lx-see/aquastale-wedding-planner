@@ -1,0 +1,91 @@
+div.index_title.index_title_3{
+    color:rgba(15, 2, 2, 0.986);
+    font: 16px,Times New Roman;
+    margin: 30PX 0px 20px;
+    padding: 0px 0px 0px 15px;
+}
+.portfolio-body{
+    background-color: whitesmoke;
+}
+.portfolio-body a{
+    color:#888;
+    font: 15px; 
+    font-size: Times New Roman;
+    width: 30PX;
+    height: 29.6PX;
+}
+.zuopin_list ul li {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 285px;
+}
+.zuopin_list ul li img.pic {
+    width: 285px;
+    height: 174px;
+}
+.zuopin_list ul li p.title {
+    padding-top:10px;
+    padding-bottom:12px;
+    border-bottom:1px solid #f3f3f3;
+}
+.hot_tandian {
+    position:relative;
+}
+.hot_news {
+    position:relative;
+}
+.hot_news {
+    margin-top:20px;
+}
+.hot_content_tandianlist ul {
+    margin-left:-2%;
+}
+.hot_content_tandianlist ul li {
+    width:23%;
+    float:left;
+    margin-left:2%;
+    position:relative;
+}
+.hot_content_tandianlist ul li img {
+    display:block;
+    width:100%;
+    border-radius: 4px;
+}
+.hot_content_tandianlist ul li p {
+    width:96%;
+    line-height:28px;
+    padding:0 2%;
+    height:28px;
+    overflow:hidden;
+    background:url("../img/opacity/b60.png") repeat;
+    position:absolute;
+    left:0;
+    bottom:0;
+    border-radius: 0 0 4px 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hot_content_tandianlist ul li p a {
+    color:#fff;
+}
+.hot_content_news {
+    background:#fff;
+}
+
+.hot_news_list {
+    width:25%;
+    float:left;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.wrapper{
+    margin-top: 70px;
+}

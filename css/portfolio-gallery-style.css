@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#desc1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: #c8ad7e;
+}
+
+#desc2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.imageContainer .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.imageContainer .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.imageContainer .heading h3 span {
+    font-weight: 100;
+}
+
+.imageContainer .imageBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageContainer .imageBox .wedding {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.imageContainer .imageBox .wedding img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.imageContainer .imageBox .wedding .item {
+    transition: .5s ease-in-out;
+}
+
+.imageContainer .imageBox .wedding .item:hover {
+    filter: brightness(70%);
+}
+
+#viewMore {
+    margin: 40px 0 70px 0;
+    background: rgb(255, 150, 168);
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+#viewMore a {
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border-bottom: none;
+}
+
+.navbar-header {
+    padding: 0;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-right {
+    position: absolute;
+    right: 10px;
+}
+
+.navbar-collapse a {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-header {
+        right: 0;
+    }
+
+    .navbar-collapse {
+        top: 65px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .imageContainer .imageBox {
+        flex-direction: column;
+    }
+
+    .imageContainer .imageBox .wedding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 643px) {
+    .imageContainer .heading {
+        width: 100%;
+    }
+
+    .imageContainer .heading h3 {
+        font-size: 1em;
+    }
+}

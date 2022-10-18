@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aqua’s Tale | Wedding Design & Planning</title>
+    <link rel="shortcut icon" href="images/icon.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css/review-style.css" />
+
+    <!-- Offline availability -->
+		<link rel="manifest" href="./manifest.json">
+		<meta name="theme-color" content="white"/>
+
+    <!-- Mansory Plugin -->
+    <link rel="stylesheet" href="css/sortable.min.css" />
+    <script src="js/sortable.min.js"></script>
+
+  </head>
+
+  <body class="is-preload landed">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default nav-bar-show" id="nav-bar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"
+            ><span id="nav-brand">AQ</span></a
+          >
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse navbar-right"
+          id="bs-example-navbar-collapse-1"
+        >
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="service.html">SERVICE</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a class="button primary" href="login.html">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid review-body">
+      <div class="htmleaf-container">
+        <main class="sortable">
+          <div class="container">
+            <div class="wrapper">
+              <ul class="sortable__nav nav">
+                <li>
+                  <a data-sjslink="fairytale" class="nav__link"> Fairytale </a>
+                </li>
+                <li>
+                  <a data-sjslink="chinese" class="nav__link"> Chinese </a>
+                </li>
+                <li>
+                  <a data-sjslink="romance" class="nav__link"> Romance </a>
+                </li>
+                <li>
+                  <a data-sjslink="flora" class="nav__link"> Flora </a>
+                </li>
+                <li>
+                  <a data-sjslink="bookmark" class="nav__link"> Bookmark </a>
+                </li>
+                <li>
+                  <a data-toggle="modal" data-target="#myModal" class="favourite-icon glyphicon glyphicon-plus" title="Post review"></a>
+                </li>
+              </ul>
+              <div id="sortable" class="sjs-default all-comment">
+
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <!-- Post new review, Modal -->
+      <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Post New Review!</h4>
+            </div>
+            <div class="modal-body">
+              <form action="#" method="GET" id="reviewForm" onsubmit="return false">
+                <div class="form-group">
+                  <label for="reviewTitle">Review Title</label>
+                  <input type="text" class="form-control" id="reviewTitle" placeholder="Title">
+                </div>
+                <div class="form-group">Chosen Theme
+                  <select id="selectTheme" class="form-control">
+                    <option>Fairytale</option>
+                    <option>Chinese</option>
+                    <option>Romance</option>
+                    <option>Flora</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="reviewContent">Review Content</label>
+                  <textarea rows="5" class="form-control" id="reviewContent" placeholder="Content" autocomplete="off"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="reviewPhoto">Upload Photo</label>
+                  <input accept="image/*" type="file" id="reviewPhoto">
+                  <p class="help-block">Please upload your review photo by here.</p>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" form="reviewForm" id="review-submitBtn" class="btn btn-danger">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>			
+      
+      <!-- Footer -->			
+      <div class="container-fluid text-center p-0 pb-2 mt-3" id="footer">
+          <div class="col-xs-12 footer">
+              <hr>
+              <div id="footer-icon">
+                  AQ
+              </div>
+              <div id="copyright">
+                  © AQUA'S TALE SDN BHD | ALL RIGHTS RESERVED | DESIGN BY THE AQUAS TEAM
+              </div>
+          </div><br>
+          <a class="mx-1" href="https://www.twitter.com">
+              <img src="images/TwitterIcon.png" alt="Twitter" height="25"></a>
+          <a class="mx-1" href="https://www.facebook.com">
+              <img src="images/FacebookIcon.png" alt="Facebook" height="25"></a>
+          <a href="https://www.instagram.com">
+              <img src="images/InstagramIcon.png" alt="Instagram" height="25"></a>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

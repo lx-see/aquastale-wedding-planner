@@ -1,0 +1,310 @@
+.service-body{
+    background-color: #444658;
+    background: url("../images/allBackground.png");
+    background-size: cover;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#serviceOne{
+    position: relative;
+    margin-top: 65px;
+    height: 400px;
+}
+
+#serviceOne, #serviceOne-desc{
+    background-color: #444658;
+}
+
+#serviceOne .col-xs-12{
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: inherit;
+}
+
+#serviceOne p{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+    margin-top: 50%;
+    color: white;
+}
+
+#service1{
+    background: url("../images/olivia-bauso-30UOqDM5QW0-unsplash.jpg");
+    background-size: cover;
+}
+
+#service2{
+    background: url("../images/about4.png");
+    background-size: cover;
+}
+
+#service3{
+    background: url("../images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg");
+    background-size: cover;
+}
+
+#serviceOne-desc{
+    height: 300px;
+    text-align: center;
+}
+
+#serviceOne-desc p:nth-child(1){
+    font-family: 'Spectral', serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#serviceOne-desc p:nth-child(2){
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+
+#serviceTwo, #serviceThree{
+    height: 600px;
+    margin-top: 80px;
+}
+
+#serviceTwo .col-md-4{
+    height: inherit;
+    background: url("../images/olivia-bauso-30UOqDM5QW0-unsplash.jpg");
+    background-size: cover;
+}
+
+#serviceTwo .col-md-8{
+    height: inherit;
+}
+
+#serviceTwo .content, #serviceThree .content{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#serviceTwo header h2, #serviceThree header h2{
+    font-family: 'Spectral', serif;
+}
+
+#serviceTwo header p, #serviceThree header p{
+    font-family: 'Nunito', serif;
+}
+
+#serviceTwo .content li, #serviceThree .content li{
+    line-height: 2em;
+    font-size: 19px;  
+    font-family: 'Nunito', serif;
+}
+
+#serviceTwo .content .btn{
+    border: none;
+    outline: none;
+    background-color: #e44c65;
+    font-size: 18px;    
+    margin-top: 10px;
+}
+
+#serviceThree .col-md-4{
+    height: inherit;
+    background: url("../images/jakob-owens-mLIurLmSRAY-unsplash.jpg");
+    background-size: cover;
+}
+
+#serviceThree .col-md-8{
+    height: inherit;
+}
+
+#serviceThree h2, #serviceThree p, #serviceThree li{
+    color: rgb(78, 68, 58);
+}
+
+#serviceFour{
+    margin-top: 80px;
+    height: 550px;
+    margin-bottom: 0;
+}
+
+#serviceFour h2{
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-size: 40px;
+}
+
+.service-theme{
+    width: 256px;
+    height: 386px;
+}
+
+.service-theme img{
+    border-radius: 0px 0px 5px 5px;
+    object-fit: cover;
+    width: 256px;
+    height: 256px;
+}
+
+.service-theme h3, .service-theme p{
+    color: rgb(78, 68, 58);
+    text-align: center;
+    font-family: 'Nunito', serif;
+}
+
+#reviewBtn{
+    text-align: center;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+    font-family: 'Spectral', serif;
+}
+
+#myModal{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#myModal .modal-title{
+    font-family: 'Spectral', serif;
+    color: black;
+}
+
+#myModal li{
+    font-family: "Nunito", sans-serif;
+    color: black;
+}
+
+@media screen and (max-width: 980px) {
+    #serviceOne{
+        height: 900px;
+        padding: 0;
+    }
+    #serviceOne .col-xs-12{
+        height: 300px;
+    }
+    #serviceOne-desc{
+        height: 400px;
+    }
+    #serviceOne p{
+        margin-top: 15%;
+        font-size: 44px;
+    }
+    #serviceOne-desc p:nth-child(2){
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        width: 80%;
+    }
+    #serviceTwo, #serviceThree{
+        height: 1000px;
+    }
+    #serviceTwo .col-md-4, #serviceThree .col-md-8{
+        height: 50%;
+    }
+    #serviceTwo .content, #serviceThree .content{
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    #serviceTwo header h2, #serviceThree header h2{
+        text-align: center;
+        color: rgb(78, 68, 58);
+    }
+    #serviceTwo header p, #serviceThree header p{
+        text-align: center;
+        color: rgb(78, 68, 58);
+    }
+    #serviceTwo .content ul{
+        text-align: center;
+        color: rgb(78, 68, 58);
+    }
+    #serviceTwo .content li, #serviceThree .content li{
+        text-align: center;
+    }
+    #serviceThree .col-md-4, #serviceThree .col-md-8{
+        height: 50%;
+    }
+    #serviceThree{
+        margin-top: 150px;
+    }
+    #s1{
+        transform: translateY(100%);
+    }
+    #s2{
+        transform: translateY(-100%);
+    }
+    #serviceFour{
+        height: 400%;
+    }
+    #serviceFour h2{
+        color: rgb(78, 68, 58);
+    }
+    .service-theme{
+        width: 400px;
+        height: 350px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .service-theme img{
+        border-radius: 0px 0px 5px 5px;
+        object-fit: cover;
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #serviceOne{
+        height: 900px;
+        padding: 0;
+    }
+    #serviceOne p{
+        margin-top: 70%;
+        transform: translateY(-50%);
+        line-height: 1.5em;
+    }
+    #serviceOne .col-xs-12{
+        height: 300px;
+    }
+    #serviceOne-desc{
+        height: 400px;
+    }
+    #serviceOne-desc p:nth-child(2){
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        width: 80%;
+    }
+    .service-theme{
+        width: 300px;
+        height: 350px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .service-theme img{
+        border-radius: 0px 0px 5px 5px;
+        object-fit: cover;
+        width: 290px;
+        height: 240px;
+    }
+    #myModal{
+        top: 45%;
+        width: 100%;
+    }
+    #reviewBtn{
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #serviceFour{
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}

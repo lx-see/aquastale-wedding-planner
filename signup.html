@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Aqua’s Tale | Wedding Design & Planning</title>
+    <link rel="shortcut icon" href="images/icon.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        @import url("fontawesome-all.min.css");
+        @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+    </style>
+
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background: rgb(219, 226, 226); */
+            background: rgb(255, 222, 227);
+        }
+
+        .row {
+            /* background: rgb(255, 150, 168); */
+            background: #fff;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px grey;
+        }
+
+        img {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .btn1 {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(255, 150, 168);
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .btn1:hover {
+            background: white;
+            border: 1px solid;
+            border-color: rgb(255, 150, 168);
+            color: rgb(255, 150, 168);
+        }
+
+        #footer {
+            background-color: lightslategrey;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-family: 'Satisfy', cursive;
+            color: rgb(255, 150, 168);
+            font-size: 65px;
+            cursor: pointer;
+        }
+
+        a {
+            color: rgb(253, 138, 157);
+        }
+
+        a:hover {
+            color: rgb(218, 63, 89);
+        }
+
+        #proceedBtn {
+            border: none;
+            outline: none;
+            background-color: rgb(255, 150, 168);
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        #proceedBtn:hover {
+            background: white;
+            border: 1px solid;
+            border-color: rgb(255, 150, 168);
+            color: rgb(255, 150, 168);
+        }
+
+        /*Footer*/
+        #footer {
+            background-color: lightslategrey;
+            color: whitesmoke;
+        }
+
+        .footer {
+            position: relative;
+            bottom: 0%;
+            height: 140px;
+            background-color: #2997e600;
+        }
+
+        hr {
+            position: absolute;
+            top: 0%;
+            width: 80%;
+            left: 50%;
+            transform: translate(-50%);
+            border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+        }
+
+        #footer-icon {
+            position: absolute;
+            top: -17%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            font-family: 'Nova Round', cursive;
+            font-size: 50px;
+        }
+
+        #copyright {
+            position: absolute;
+            width: max-content;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            bottom: 20%;
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+
+            color: #FFF2F2;
+        }
+
+        @media screen and (max-width: 980px) {
+            .footer {
+                position: relative;
+                bottom: 0%;
+                height: 100px;
+            }
+
+            hr {
+                top: 0%;
+            }
+
+            #footer-icon {
+                position: absolute;
+                top: -17%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                font-family: 'Nova Round', cursive;
+                font-size: 50px;
+            }
+
+            #copyright {
+                bottom: 20%;
+                width: 70%;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .footer {
+                position: relative;
+                bottom: 0%;
+                height: 120px;
+            }
+
+            hr {
+                top: 0%;
+            }
+
+            #footer-icon {
+                position: absolute;
+                top: -17%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                font-family: 'Nova Round', cursive;
+                font-size: 50px;
+            }
+
+            #copyright {
+                bottom: 24%;
+                width: 80%;
+                font-size: 13px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="Form mt-4 mb-5 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                    <img src="images/login2.png" class="img-fluid" alt="Login Picture">
+                </div>
+                <div class="col-lg-7 px-5 pt-4">
+                    <h1 class="font-weight-bold py-3" id="backToHome">Aqua's Tale</h1>
+                    <h4>Register your account</h4>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="first name" class="form-control my-3 p-4" id="fName"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="last name" class="form-control mb-3 p-4" id="lName"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="email" placeholder="email address" class="form-control mb-3 p-4" id="email"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" placeholder="new password" class="form-control mb-3 p-4"
+                                    id="password" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" placeholder="confirm password" class="form-control mb-3 p-4"
+                                    id="confirmPassword" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="submit" class="btn1 mb-5">Get Started</button>
+                            </div>
+                        </div>
+                        <p>Already have an account?<a href="login.html"> Sign in</a></p>
+                    </form>
+                    <!-- <img src="images/login3.png" alt="Hello Text Picture" class="img-fluid" max-width="100%"
+                        height="auto"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Copy right -->
+    <div class="container-fluid text-center p-0 pb-2" id="footer">
+        <div class="col-xs-12 footer">
+            <hr>
+            <div id="footer-icon">
+                AQ
+            </div>
+            <div id="copyright">
+                © AQUA'S TALE SDN BHD | ALL RIGHTS RESERVED | DESIGN BY THE AQUAS TEAM
+            </div>
+        </div>
+
+        <br>
+
+        <a class="mx-1" href="https://www.twitter.com">
+            <img src="images/TwitterIcon.png" alt="Twitter" height="25"></a>
+        <a class="mx-1" href="https://www.facebook.com">
+            <img src="images/FacebookIcon.png" alt="Facebook" height="25"></a>
+        <a href="https://www.instagram.com">
+            <img src="images/InstagramIcon.png" alt="Instagram" height="25"></a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center" id="staticBackdropBody">
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-primary" href="login.html" id="proceedBtn">Proceed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Firebase -->
+    <script src="js/config.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js"></script>
+
+    <script>
+        var app = firebase.initializeApp(firebaseConfig);
+        var db = firebase.firestore(app);
+
+        var ref = firebase.firestore(app).collection('User');
+
+        $(function () {
+            $("form").submit(function (event) {
+                event.preventDefault();
+
+                var firstName = $("#fName").val();
+                var lastName = $("#lName").val();
+                var userEmail = $("#email").val();
+                var userPassword = $("#password").val();
+                var userCPassword = $("#confirmPassword").val();
+
+                if (userPassword === userCPassword) {
+                    firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
+                        .then((userCredential) => {
+                            // Signed in 
+                            firebase.auth().currentUser.updateProfile({
+                                displayName: firstName + " " + lastName,
+                            }).then(() => {
+                                // Update successful
+                                // ...
+                                firebase.auth().currentUser.sendEmailVerification()
+                                    .then(() => {
+                                        // Email verification sent!
+                                        // ...
+                                        firebase.auth().signOut().then(() => {
+                                            // Sign-out successful.
+                                            $("#staticBackdropLabel").html("Congrats!");
+                                            $("#staticBackdropBody").html("Register successful, a verifitcation email had been sent!");
+                                            $('#staticBackdrop').modal('show');
+                                        }).catch((error) => {
+                                            // An error happened.
+                                            console.log(error);
+                                        });
+                                    });
+                            }).catch((error) => {
+                                // An error occurred
+                                // ...
+                                console.log(error);
+                            });
+                            // ...
+                        })
+                        .catch((error) => {
+                            console.log(error);
+                            // ..
+                            $("#staticBackdropLabel").html("Opps!");
+                            $("#staticBackdropBody").html("Email already existed!<br>Please try another email or sign in.");
+                            $('#staticBackdrop').modal('show');
+                            $("#proceedBtn").attr("data-dismiss", "modal");
+                            $("#proceedBtn").html("Understood");
+                        });
+                }
+                else {
+                    $("#staticBackdropLabel").html("Opps!");
+                    $("#staticBackdropBody").html("Password entered does not match!<br>Please enter again.");
+                    $('#staticBackdrop').modal('show');
+                    $("#proceedBtn").attr("data-dismiss", "modal");
+                    $("#proceedBtn").html("Understood");
+
+                    $("#password").val("");
+                    $("#confirmPassword").val("");
+                }
+            });
+
+            $("#backToHome").click(function () {
+                window.location.href = "index.html";
+            });
+        });
+    </script>
+</body>
+
+</html>

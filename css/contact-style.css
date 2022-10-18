@@ -1,0 +1,203 @@
+.contact-body{
+    background-image: url("../images/annie-spratt-BrfCiLC7Grc-unsplash.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+#contactOne{
+    position: relative;
+    height: 500px;
+    margin-top: 65px;
+    padding: 0;
+    background: url("../images/olivia-bauso-30UOqDM5QW0-unsplash.jpg");
+    background-size: cover;
+}
+
+#contactOne::after{
+    background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(255, 154, 171, 0.295)), url("images/overlay.png");;
+    background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(255, 154, 171, 0.295)), url("images/overlay.png");;
+    background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(255, 154, 171, 0.295)), url("images/overlay.png");;
+    background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(255, 154, 171, 0.295)), url("images/overlay.png");;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#contactOne div{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 1;
+}
+
+#contactOne div:nth-child(1){
+    top: 20%;
+    font-size: 50px;
+    font-family: 'Spectral', serif;
+}
+
+#contactOne div:nth-child(2){
+    top: 35%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+}
+
+#contactOne div:nth-child(3){
+    top: 70%;
+    font-size: 28px;
+    font-family: 'Spectral', serif;
+}
+
+#contactTwo{
+    padding: 0;
+    margin-top: 50px;
+    height: 700px;
+    background-color: rgb(226, 225, 225);
+    background: url("../images/foto-pettine-IfjHaIoAoqE-unsplash.jpg");
+    background-size: cover;
+}
+
+#contactTwo-1, #contactTwo-2{
+    position: relative;
+    height: inherit;
+}
+
+#contactTwo img{
+    position: absolute;
+    height: inherit;
+    opacity: 0.9;
+}
+
+#contactTwo-1 p{
+    font-size: 100px;
+    font-family: 'Spectral', serif;
+    text-align: center;
+    margin-top: 120px;
+    line-height: 1.2em;
+    z-index: 5;
+}
+
+#contact-form{
+    margin-top: 50px;
+    font-weight: bold;
+    color: #94692a;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+}
+
+input, textarea{
+    border: 0;
+    width: 90%;
+    margin-top: 10px;
+    font-family: 'Cormorant', serif;
+    border-radius: 8px;
+    color: #e13652;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+textarea{
+    height: 180px;
+    resize:none;
+}
+
+#contact-form span{
+    padding-left: 50px;
+    color: red;
+    font-size: 18px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid #e13652;
+}
+
+#contact-submit-btn{
+    font-family: 'Cormorant', serif;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contactThree p{
+    font-family: 'Gelasio', serif;
+}
+
+#three-p2{
+    font-style:italic;	
+}
+
+#appModal, #appModal h4{
+    color: black;
+}
+
+.appointment-datetime{
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 20px;
+    left: 0;
+    font-size: 30px;
+    line-height: 2em;
+}
+
+    .appointment-datetime span{
+        padding-left: 15px;
+    }
+
+#displayMsg div, #displayMsg h4, #displayMsg b{
+    color: black;
+}
+
+@media screen and (max-width: 980px) {
+    #contactOne div:nth-child(1){
+        width: 100%;
+        text-align: center;
+    }
+    #contactOne div:nth-child(2){
+        font-size: 22px;
+        width: 120%;
+    }
+    #contactOne div:nth-child(3){
+        font-size: 24px;
+        width: fit-content;
+    }
+    #contactTwo{
+        height: 900px;
+    }
+    #contactTwo img{
+        height: 200px;
+        width: calc(100vw);
+        object-fit: cover;
+    }
+    #contactTwo-1{
+        height: 200px;
+    }
+    #contactTwo-1 p{
+        font-size: 64px;
+        margin-top: 30px;
+    }
+    #contact-form{
+        margin-top: 30px;
+    }
+    #two img{
+        display: none;
+    }
+    #contact-submit-btn, #btnAppointment, #sendMsgBtn{
+		width: fit-content;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+    .modal{
+        width: 90%;
+    }
+}

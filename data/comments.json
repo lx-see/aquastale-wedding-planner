@@ -1,0 +1,65 @@
+[
+{
+    "id":"1",
+    "type":"fairytale",
+    "img":"images/comment-1.jpg",
+    "title":"Comment 1",
+    "text":"This is my first comment for this wedding planner, I am so satisfied with their services and design style!"
+},
+{
+    "id":"2",
+    "type":"fairytale",
+    "img":"images/theme-1.jpg",
+    "title":"Comment 2",
+    "text":"This is the best wedding planner!"
+},
+{
+    "id":"3",
+    "type":"chinese",
+    "img":"images/theme-2.jpg",
+    "title":"Comment 3",
+    "text":"The services provided is perfect and they provide very good consultation!"
+},
+{
+    "id":"4",
+    "type":"romance",
+    "img":"images/portfolio/555.jpg",
+    "title":"Comment 4",
+    "text":"Aqua's Tale help me to held a romance wedding.. Thank you.."
+},
+{
+    "id":"5",
+    "type":"romance",
+    "img":"images/portfolio/111.jpg",
+    "title":"Comment 5",
+    "text":"Love this wedding events planner so much."
+},
+{
+    "id":"6",
+    "type":"flora",
+    "img":"images/theme-4.jpg",
+    "title":"Comment 6",
+    "text":"The flora design is amazing! I love it so much!"
+},
+{
+    "id":"7",
+    "type":"flora",
+    "img":"images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg",
+    "title":"Comment 7",
+    "text":"The wedding designer is patient and professional~ We discuss a lot and I am so satisfied with the final design and effects! Thank you!"
+},
+{
+    "id":"8",
+    "type":"flora",
+    "img":"images/portfolio/777.jpg",
+    "title":"Comment 8",
+    "text":"The rose used to decorate the wedding place is so beautiful & gave me a memorable wedding. Also, the management of the transportation and guests is good. I love this planner."
+},
+{
+    "id":"9",
+    "type":"chinese",
+    "img":"images/comment-9.jpg",
+    "title":"Comment 9",
+    "text":"The wedding meets all of my requirements~ The staffs are very kind and patient, I will suggest my friends to consult this planner too."
+}
+]

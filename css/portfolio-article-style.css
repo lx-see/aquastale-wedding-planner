@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=DM+Serif+Display&family=Gelasio&family=Kaushan+Script&family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.portfolio-desc {
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Spectral', serif;
+    letter-spacing: 0.25em;
+}
+
+#content-header {
+    background-color: rgb(230, 217, 217);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#desc {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #c8ad7e;
+}
+
+.image-resize {
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.item {
+    border-radius: 3px;
+}
+
+.wedding-desc {
+    color: rgb(160, 151, 151);
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wedding-theme {
+    /* color: rgb(196, 166, 93); */
+    color: #c8ad7e;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#readMore {
+    color: black;
+    border-bottom: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#readMore:hover {
+    color: darkgrey;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+.navbar-header {
+    padding: 0;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-right {
+    position: absolute;
+    right: 10px;
+}
+
+.navbar-collapse a {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-header {
+        right: 0;
+    }
+
+    .navbar-collapse {
+        top: 65px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,328 @@
+.review-body{
+    margin-top: 65px;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.thumbnail:hover{
+    border: 2px solid rgb(255, 106, 106) !important;
+}
+.glyphicon-heart{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 40px;
+  z-index: 30;
+}
+.glyphicon-plus{
+  font-size: 27px;
+  color: white
+}
+#reviewForm{
+  color: black;
+}
+h2{
+  color: rgb(97, 63, 63);
+}
+h4{
+  color: black;
+}
+.radio-inline .inlineRadioOptions{
+  color: black;
+}
+#footer-icon{
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+#copyright{
+  bottom: 25%;
+}
+#footer a img{
+  transform: translateY(-10px);
+}
+
+:root{
+    --main-bg-color: #ff7675;
+  }
+  *,
+  *::after,
+  *::before{
+    box-sizing: border-box;
+  }
+  html{
+    font-size: .625em;
+    font-size: calc(1em * .625);
+    background: #f4f4f4;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font: normal 300 1.4em / 1.2 'Open-sans', helvetica, sans-serif;
+    color: #111;
+  }
+  a{
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+  }
+  ol,
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    max-width: 100%;
+  }
+  b,
+  strong{
+    font-weight: 600;
+  }
+  ::selection{
+    background: var(--main-bg-color);
+    color: #fff;
+  }
+  ::-moz-selection{
+    background: var(--main-bg-color);
+    color: #fff;
+  }
+  .container{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .wrapper{
+    padding: 40px 0;
+  }
+  .card{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .2s ease-in-out;
+  }
+  .card__picture{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .card-infos{
+    padding: 20px;
+    background: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .card__title{
+    font-family: 'Hind';
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 10px;
+  }
+  .card__text{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0;
+    color: #86888A;
+  }
+  .card__text--high{
+    font-weight: 600;
+  }
+  
+  .header{
+    background: var(--main-bg-color);
+    height: 160px;
+    display: flex;
+  }
+  .header__title{
+    margin: auto;
+    font-weight: 300;
+    font-size: 3.2rem;
+    color: #fff;
+  }
+  .header__title--high{
+    font-weight: 600;
+  }
+  
+  .sortable__nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .nav__link{
+    padding: 0 20px 4px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: block;
+    border-bottom: 2px solid transparent;
+  }
+  .nav__link.is-active{
+    border-color: var(--main-bg-color);
+  }
+  .list__item.item{
+    display: flex;
+  }
+  .item__link.link{
+    margin: 0;
+  }
+  .item__link.link:not(:first-child){
+    margin-left: 20px;
+  }
+  .link__icon{
+    height: 2rem;
+    width: 2rem;
+  }
+  @font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?rretjt');
+	src:url('../fonts/icomoon.eot?#iefixrretjt') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?rretjt') format('woff'),
+		url('../fonts/icomoon.ttf?rretjt') format('truetype'),
+		url('../fonts/icomoon.svg?rretjt#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body{
+	background: #494A5F;
+	color: #D5D6E2;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+}
+
+.bgcolor-1 { background: #f0efee; }
+.bgcolor-2 { background: #f9f9f9; }
+.bgcolor-3 { background: #e8e8e8; }/*light grey*/
+.bgcolor-4 { background: #2f3238; color: #fff; }/*Dark grey*/
+.bgcolor-5 { background: #df6659; color: #521e18; }/*pink1*/
+.bgcolor-6 { background: #2fa8ec; }/*sky blue*/
+.bgcolor-7 { background: #d0d6d6; }/*White tea*/
+.bgcolor-8 { background: #3d4444; color: #fff; }/*Dark grey2*/
+.bgcolor-9 { background: #ef3f52; color: #fff;}/*pink2*/
+.bgcolor-10{ background: #64448f; color: #fff;}/*Violet*/
+.bgcolor-11{ background: #3755ad; color: #fff;}/*dark blue*/
+.bgcolor-12{ background: #3498DB; color: #fff;}/*light blue*/
+.bgcolor-20{ background: #494A5F;color: #D5D6E2;}
+
+
+@media screen and (max-width: 1024px) {
+	.htmleaf-header {
+		padding: 2em 10% 2em;
+	}
+	.htmleaf-header h1 {
+        font-size:1.4em;
+    }
+    .htmleaf-links{font-size: 1.4em}
+}
+
+@media screen and (max-width: 960px) {
+	.htmleaf-header {
+		padding: 2em 10% 2em;
+	}
+	.htmleaf-header h1 {
+        font-size:1.2em;
+    }
+    .htmleaf-links{font-size: 1.2em}
+    .related h3{font-size: 1em;}
+	.related a h3 {
+		font-size: 0.8em;
+	}
+  #footer-icon{
+    top: -22%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  #copyright{
+    bottom: 21%;
+  }
+  #footer a img{
+    transform: translateY(-5px);
+  }
+}
+
+@media screen and (max-width: 766px) {
+	.htmleaf-header h1 {
+        font-size:1.3em;
+    }
+    .htmleaf-links{font-size: 1.3em}
+    .sortable__nav a{
+      font-size: 15px;
+    }
+    hr{
+      top: -50px;
+    }
+    #footer-icon{
+      top: -18%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+    #copyright{
+      bottom: 27%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+	.htmleaf-header {
+		padding: 2em 10% 2em;
+	}
+	.htmleaf-header h1 {
+        font-size:1em;
+    }
+    .htmleaf-links{font-size: 1em}
+    .related h3{font-size: 0.8em;}
+	.related a h3 {
+		font-size: 0.6em;
+	}
+  .sortable__nav a{
+    font-size: 12px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  }
+}
